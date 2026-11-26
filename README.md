@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1f2a6b,50:3b4fd8,100:6c8cff&section=header&text=Ahmet%20Yusuf%20Bursal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Robotics&descSize=17&descAlignY=58&descAlign=50">
-  <img width="100%" alt="Ahmet Yusuf Bursal — AI Engineer · Agentic Systems · Robotics" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:eef2ff,55:a5b4fc,100:4f46e5&section=header&text=Ahmet%20Yusuf%20Bursal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Robotics&descSize=17&descAlignY=58&descAlign=50">
+  <img width="100%" alt="Ahmet Yusuf Bursal — AI Engineer · Agentic Systems · Robotics" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:4f46e5,50:6366f1,100:8b5cf6&section=header&text=Ahmet%20Yusuf%20Bursal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Robotics&descSize=17&descAlignY=58&descAlign=50">
 </picture>
 
 <div align="center">
@@ -166,5 +166,5 @@ ImageNet-pretrained ResNet18 fine-tuned by transfer learning, with failure-case 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:6c8cff,45:1f2a6b,100:0d1117&section=footer">
-  <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:4f46e5,45:a5b4fc,100:eef2ff&section=footer">
+  <img width="100%" alt="" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:8b5cf6,50:6366f1,100:4f46e5&section=footer">
 </picture>
