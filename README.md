@@ -202,7 +202,7 @@ An enterprise data platform that turns a company's CRM and help desk into **perm
 <img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Vertex AI">
 <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
 <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
+<img src="https://img.shields.io/badge/OpenAI_GPT-412991?style=for-the-badge" alt="OpenAI">
 <img src="https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logo=elevenlabs&logoColor=white" alt="ElevenLabs">
 <img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP">
 <img src="https://img.shields.io/badge/JAX-A8B9CC?style=for-the-badge&logo=google&logoColor=black" alt="JAX">
