@@ -20,10 +20,11 @@ and I go all the way down the stack to **C, Linux kernels, FPGAs and autonomous 
 ```yaml
 ai_engineering:   [LLM agents, multi-agent orchestration, tool routing, MCP servers, RAG, reranking]
 enterprise_ai:    [Google Agentspace, Vertex AI, custom company-specific agents, CRM integrations]
-machine_learning: [PyTorch, transfer learning, CNNs, gradient boosting, model serving]
+machine_learning: [PyTorch, JAX (vmap/jit on GPU), transfer learning, CNNs, gradient boosting, model serving]
 full_stack:       [FastAPI, Flask, TypeScript, Cloudflare Workers/D1/R2, serverless, motion-heavy web]
 systems:          [C, POSIX processes & IPC, shells, Linux kernel modules]
 hardware:         [FPGA digital design, Raspberry Pi, embedded C, rovers, drones, autonomous navigation]
+robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Marquardt, convergence analysis]
 ```
 
 ## 🏢 Experience highlights
@@ -64,6 +65,9 @@ hardware:         [FPGA digital design, Raspberry Pi, embedded C, rovers, drones
 
 </td>
 <td width="50%" valign="top">
+
+### 🦾 Robotics Research
+- **[robot-ik-singularity-lab](https://github.com/bursal0/robot-ik-singularity-lab)** — numerically stable inverse kinematics near singularities: adaptive damping, convergence proofs, 320k-solve JAX/GPU workspace maps (508× over NumPy) and an [interactive rover simulator ↗](https://bursal0.github.io/robot-ik-singularity-lab/) — heading to real rovers next
 
 ### ⚙️ Systems Programming (C)
 - **[air-gapped-agency](https://github.com/bursal0/air-gapped-agency)** — offline multi-agent orchestrator: fork/exec, file-mailbox IPC, atomic status protocol, crash recovery
