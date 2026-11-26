@@ -111,10 +111,6 @@ robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Ma
 - **[house-price-api](https://github.com/bursal0/house-price-api)** — XGBoost regression with log-target transform and an end-to-end sklearn pipeline behind a REST API
 - **[mnist-mlp-handwritten-digit-recognition](https://github.com/bursal0/mnist-mlp-handwritten-digit-recognition)** — controlled ablation of MLP capacity and learning rate; domain-shift test on my own handwriting
 
-#### 🔒 Private / NDA
-- Company-specific **Agentspace agents & MCP servers** · **Vertex AI** pipelines · **Claude** integrations · **CRM** automation — *Peranet*
-- **Raspberry Pi autonomous rover** · **FPGA** designs · **drones**
-
 </td>
 <td width="50%" valign="top">
 
@@ -122,6 +118,63 @@ robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Ma
 - **[air-gapped-agency](https://github.com/bursal0/air-gapped-agency)** — fault-tolerant multi-agent orchestration without networking: fork/exec supervision, `FD_CLOEXEC` handshakes, atomic publishing, file-mailbox IPC, crash recovery
 - **[mining-robot](https://github.com/bursal0/mining-robot)** — autonomous exploration with BFS and **risk-weighted Dijkstra** planning, function-pointer policies, SDL2 renderer
 - **[mini-shell](https://github.com/bursal0/mini-shell)** — Unix job-control shell with background processes, per-task logs and status tracking
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔒 Private & NDA work
+
+<sub>Source code belongs to employers and clients, so it is not public. What I built is described below.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏗️ CRM → AI data platform for Google Agentspace · *Peranet*
+An enterprise data platform that turns a company's CRM and help desk into **permission-aware knowledge** for AI agents.
+
+- **Zoho CRM connector:** 12 modules (Leads, Accounts, Contacts, Deals, Quotes, Products, Purchase Orders, Contracts, Campaigns, Tasks, Events, Calls) pulled through the **Bulk Read API v8**: async export jobs, polling, streamed ZIP/CSV ingestion in 1 MB chunks
+- **Zoho Desk connector:** accounts, contacts, tickets, tasks, contracts, products and agents, plus **nested ticket threads, conversations and comments** fetched in parallel by an 8-worker `ThreadPoolExecutor`, with rate-limit-aware retries
+- **Schema-driven modelling:** a 600+ field inventory and master schema, with every record split into domain **stores**:
+  - CRM: identity · contact · sales pipeline · marketing & ad attribution · activity · product · finance
+  - Desk: identity · ticket lifecycle · conversation · operations
+- **Customer analytics:** RFM features (recency · frequency · monetary) alongside each account
+- **Warehouse:** lands in **Cloud Storage + BigQuery** with auto-provisioned tables and **content-hash (MD5) record IDs** for idempotent re-runs
+- **Security:** a **document-level ACL** on every record, so Agentspace answers each employee only from data they are allowed to see
+
+</td>
+<td width="50%" valign="top">
+
+#### 🤖 Company-specific agents & MCP servers · *Peranet*
+- **Google Agentspace agents** for client companies, grounded on the warehouse above, so sales and support teams can query customers, deals and tickets in natural language
+- **MCP servers** exposing CRM, help-desk and internal business operations to agents through the **Model Context Protocol**, as typed tools with controlled access
+- **Claude-based systems** for production business workflows
+
+#### ☁️ Generative AI on Vertex AI · *Peranet*
+- Gemini **text generation, code generation and multimodal (image) inference**
+- **Batch prediction** jobs and **batch embedding** pipelines (JSONL in, JSONL out) for large-scale processing
+- **Text-embedding** pipelines for semantic search and retrieval
+- Systematic **prompt engineering** and evaluation
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛰️ Robotics & hardware
+- **Raspberry Pi autonomous rover:** self-driving stack covering sensing, decision logic and closed-loop motor control
+- **FPGA digital design:** HDL modules, synthesis and on-board implementation
+- **Drones & rovers:** building, integration and programming
+
+</td>
+<td width="50%" valign="top">
+
+#### 🐧 Low-level systems *(in progress / coursework)*
+- **Autonomous drone-swarm choreography:** independent processes that coordinate a show over a common channel API across **FIFOs, shared memory and files**, later **TCP/UDP across machines**, with per-beat collision and speed safety audits and a live SDL2 viewer
+- **Linux kernel modules:** a thread monitor exposed through `/proc` and a kernel-space drone simulation
 
 </td>
 </tr>
