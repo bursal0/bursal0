@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0d1117,55:1f2a6b,100:6c8cff&section=header&text=Ahmet%20Yusuf%20Bursal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Robotics&descSize=17&descAlignY=58&descAlign=50&animation=fadeIn">
-  <img width="100%" alt="Ahmet Yusuf Bursal — AI Engineer · Agentic Systems · Robotics" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:eef2ff,55:a5b4fc,100:4f46e5&section=header&text=Ahmet%20Yusuf%20Bursal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Robotics&descSize=17&descAlignY=58&descAlign=50&animation=fadeIn">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:1f2a6b,50:3b4fd8,100:6c8cff&section=header&text=Ahmet%20Yusuf%20Bursal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Robotics&descSize=17&descAlignY=58&descAlign=50">
+  <img width="100%" alt="Ahmet Yusuf Bursal — AI Engineer · Agentic Systems · Robotics" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:eef2ff,55:a5b4fc,100:4f46e5&section=header&text=Ahmet%20Yusuf%20Bursal&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20Agentic%20Systems%20%C2%B7%20Robotics&descSize=17&descAlignY=58&descAlign=50">
 </picture>
 
 <div align="center">
