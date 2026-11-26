@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3200&pause=900&color=6C8CFF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Ahmet+Yusuf+Bursal+%F0%9F%91%8B;AI+Engineer+%C2%B7+Agentic+Systems+%26+MCP;From+LLM+agents+to+FPGA+silicon;Rovers%2C+drones+and+autonomous+robotics" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3200&pause=900&color=6C8CFF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Ahmet+Yusuf+Bursal+%F0%9F%91%8B;AI+Engineer+%C2%B7+Agentic+Systems+%26+MCP;Agentspace+%C2%B7+Vertex+AI+%C2%B7+Claude;From+LLM+agents+to+FPGA+silicon;Rovers%2C+drones+and+autonomous+robotics" alt="Typing intro" />
 
 **Computer Engineering @ Istanbul Medeniyet University**
 
@@ -19,7 +19,7 @@ and I go all the way down the stack to **C, Linux kernels, FPGAs and autonomous 
 
 ```yaml
 ai_engineering:   [LLM agents, multi-agent orchestration, tool routing, MCP servers, RAG, reranking]
-enterprise_ai:    [Google Agentspace, Vertex AI, custom company-specific agents, CRM integrations]
+enterprise_ai:    [Google Agentspace, Vertex AI, Gemini, Anthropic Claude, MCP servers, company-specific agents, CRM automation]
 machine_learning: [PyTorch, JAX (vmap/jit on GPU), transfer learning, CNNs, gradient boosting, model serving]
 full_stack:       [FastAPI, Flask, TypeScript, Cloudflare Workers/D1/R2, serverless, motion-heavy web]
 systems:          [C, POSIX processes & IPC, shells, Linux kernel modules]
@@ -27,56 +27,62 @@ hardware:         [FPGA digital design, Raspberry Pi, embedded C, rovers, drones
 robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Marquardt, convergence analysis]
 ```
 
-## 🏢 Experience highlights
+## 🏢 Experience
 
-### 🤖 Enterprise AI Agents & MCP — Google Agentspace
-- Designed and shipped **custom AI agents tailored to individual companies** on **Google Agentspace**
-- Wrote **Model Context Protocol (MCP) servers** that plug company-internal tools, data sources and workflows into those agents
-- Connected agents to enterprise knowledge so teams get grounded answers and automated tasks over their own data
+### 💼 AI & CRM Engineer — **Peranet**
+*Enterprise AI · CRM platforms · Google Cloud · Anthropic Claude*
 
-### 🧩 CRM Development
-- Developed and customised **CRM & help-desk systems** at my previous company — workflows, automations and integrations between customer-facing tools
+- 🤖 **Enterprise agentic AI on Google Agentspace** — architected and shipped **company-specific AI agents** for client organisations, grounded in each company's internal knowledge, documents and workflows
+- 🔌 **Model Context Protocol (MCP) servers** — engineered custom MCP integrations that expose proprietary tools, data sources and business operations to agents through a standard, secure interface
+- ☁️ **Google Vertex AI** — built generative-AI pipelines: prompt engineering, embeddings, batch prediction and multimodal inference on Gemini models
+- 🧠 **Claude-based systems** — designed and integrated LLM solutions on Anthropic's Claude for production business use cases
+- 🧩 **CRM & help-desk engineering** — developed, customised and automated CRM / service-desk platforms: workflow automation, data integration and AI-assisted customer operations
 
 ### 🛰️ Hardware, Robotics & Autonomy
-- Built the **autonomous-driving stack for a Raspberry Pi rover** — sensing, decision logic and motor control
-- Designed **digital logic on FPGAs**
-- Built and programmed **rovers and drones**
+- 🚗 **Autonomous rover** — end-to-end autonomy stack on Raspberry Pi: perception, decision-making and closed-loop motor control
+- 🔲 **FPGA digital design** — hardware description, synthesis and on-board implementation of digital systems
+- 🚁 **Rovers & UAVs** — built, integrated and programmed ground rovers and drones
+- 🦾 **Robot kinematics research** — numerically stable IK near singularities, being prepared for real rover manipulators
 
 ### 📊 Data Science
-- Published many notebooks and competition entries on **Kaggle**
+- Extensive portfolio of notebooks and competition entries on **Kaggle** — feature engineering, gradient boosting and deep learning
 
 ---
 
-## 🚀 Featured open-source work
+## 🚀 Featured work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 AI & Agents
-- **[agenith-agent](https://github.com/bursal0/agenith-agent)** — modular agent framework with intelligent tool routing, memory and document workflows
-- **[rag-pdf-chatbot](https://github.com/bursal0/rag-pdf-chatbot)** — hybrid RAG: FAISS dense + BM25 sparse retrieval, score fusion, LLM reranking
+### 🦾 Robotics Research
+- **[robot-ik-singularity-lab](https://github.com/bursal0/robot-ik-singularity-lab)** — numerically stable inverse kinematics near kinematic singularities. Convergence proofs (quadratic vs linear, closed-form contraction ρ = λ²/(σ²+λ²) matched to 6 decimals), adaptive SV & Levenberg–Marquardt damping, paired-bootstrap statistics, and **320,000-solve JAX/GPU workspace maps — 508× faster than NumPy**. Ships with an [interactive rover simulator ↗](https://bursal0.github.io/robot-ik-singularity-lab/) cross-validated **1026/1026** against the Python reference. Next stop: real rovers.
 
-### 🔬 Machine Learning
-- **[cifar10-resnet18-classification](https://github.com/bursal0/cifar10-resnet18-classification)** — ResNet18 transfer learning, stress-tested on real phone photos, Gradio demo
-- **[mnist-mlp-handwritten-digit-recognition](https://github.com/bursal0/mnist-mlp-handwritten-digit-recognition)** — MLP experiments that read my own handwriting
-- **[SongRecommendation](https://github.com/bursal0/SongRecommendation)** — full-stack recommender with real-time autocomplete
-- **[house-price-api](https://github.com/bursal0/house-price-api)** — XGBoost model behind a FastAPI prediction endpoint
+### 🧠 Agentic AI & Retrieval
+- **[agenith-agent](https://github.com/bursal0/agenith-agent)** — modular agent architecture (Brain → Orchestrator → Tool Registry) with LLM-driven tool selection, retrieval-grounded PDF QA over FAISS, map-reduce whole-document reasoning and a quota-free automated test suite
+- **[rag-pdf-chatbot](https://github.com/bursal0/rag-pdf-chatbot)** — hybrid retrieval-augmented generation: dense (FAISS + sentence embeddings) and sparse (BM25) retrieval combined by score fusion, followed by LLM cross-reranking and source-attributed, context-constrained answering
+
+### 🔬 Deep Learning & ML
+- **[cifar10-resnet18-classification](https://github.com/bursal0/cifar10-resnet18-classification)** — ImageNet-pretrained ResNet18 fine-tuned via transfer learning to **95.03 % test accuracy** (macro-F1 95.02 %), ~6.8 ms inference, failure-case analysis and out-of-distribution evaluation on real smartphone photos (6/6), served through Gradio
+- **[mnist-mlp-handwritten-digit-recognition](https://github.com/bursal0/mnist-mlp-handwritten-digit-recognition)** — controlled ablation of MLP capacity and learning rate with a strict train/val/test protocol, plus domain-shift evaluation on my own handwriting
+- **[SongRecommendation](https://github.com/bursal0/SongRecommendation)** — content-based recommender over 9-dimensional audio-feature space (standardised cosine similarity + genre prior), deployed full-stack with [live demo ↗](https://songrecommendation-production.up.railway.app/)
+- **[house-price-api](https://github.com/bursal0/house-price-api)** — gradient-boosted regression (XGBoost) with log-target transformation and an end-to-end sklearn preprocessing pipeline, served as a production REST API
 
 </td>
 <td width="50%" valign="top">
 
-### 🦾 Robotics Research
-- **[robot-ik-singularity-lab](https://github.com/bursal0/robot-ik-singularity-lab)** — numerically stable inverse kinematics near singularities: adaptive damping, convergence proofs, 320k-solve JAX/GPU workspace maps (508× over NumPy) and an [interactive rover simulator ↗](https://bursal0.github.io/robot-ik-singularity-lab/) — heading to real rovers next
+### ⚙️ Systems Programming (C / POSIX)
+- **[air-gapped-agency](https://github.com/bursal0/air-gapped-agency)** — fault-tolerant multi-agent orchestration without networking: fork/exec process supervision, `FD_CLOEXEC` startup-pipe handshakes, atomic rename-based publishing, single-writer file-mailbox IPC and crash recovery via PID liveness probing
+- **[mining-robot](https://github.com/bursal0/mining-robot)** — autonomous exploration simulator with BFS shortest-path and **risk-weighted Dijkstra** planning, function-pointer policy dispatch, Minesweeper-style hazard sensing and an SDL2 renderer
+- **[mini-shell](https://github.com/bursal0/mini-shell)** — Unix job-control shell: background process management, per-task log redirection and asynchronous status tracking
 
-### ⚙️ Systems Programming (C)
-- **[air-gapped-agency](https://github.com/bursal0/air-gapped-agency)** — offline multi-agent orchestrator: fork/exec, file-mailbox IPC, atomic status protocol, crash recovery
-- **[mining-robot](https://github.com/bursal0/mining-robot)** — autonomous robot simulator with BFS & risk-aware Dijkstra policies, SDL2 view
-- **[mini-shell](https://github.com/bursal0/mini-shell)** — Unix shell with process tracking
+### 🌐 Production & Client Systems
+- **[EDA Akademik Takip](https://github.com/bursal0/eda-akademik-takip-case-study)** — production education-operations platform on **Cloudflare Workers + D1 + R2** behind Cloudflare Access: server-side authorisation, relational data model, audit trails, verifiable backups and dual deployment environments
+- **[AOP Creative Agency](https://github.com/bursal0/aop-agency-website-case-study)** — high-fidelity, scroll-driven motion website with a fail-closed edge-authenticated preview pipeline — [live ↗](https://aopcreativeagency.com/)
 
-### 🌐 Production & Client Work
-- **[EDA Akademik Takip](https://github.com/bursal0/eda-akademik-takip-case-study)** — production platform for students, coaches and institutions on Cloudflare Workers + D1 + R2
-- **[AOP Creative Agency](https://github.com/bursal0/aop-agency-website-case-study)** — scroll-driven, motion-rich agency site, [live ↗](https://aopcreativeagency.com/)
+### 🔒 Private / NDA
+- Company-specific **Agentspace agents & MCP servers** · **Vertex AI** pipelines · **Claude** integrations · **CRM** automation (Peranet)
+- **Raspberry Pi autonomous rover** · **FPGA** designs · **drones**
 
 </td>
 </tr>
