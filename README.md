@@ -2,14 +2,12 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3200&pause=900&color=6C8CFF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Ahmet+Yusuf+Bursal+%F0%9F%91%8B;AI+Engineer+%C2%B7+Agentic+Systems+%26+MCP;Agentspace+%C2%B7+Vertex+AI+%C2%B7+Claude;From+LLM+agents+to+FPGA+silicon;Rovers%2C+drones+and+autonomous+robotics" alt="Typing intro" />
 
-**Computer Engineering @ Istanbul Medeniyet University**
+**AI Engineer @ Peranet · Computer Engineering @ Istanbul Medeniyet University**
 
 I build **AI that actually ships** — enterprise agents, MCP integrations and retrieval pipelines —
 and I go all the way down the stack to **C, Linux kernels, FPGAs and autonomous robots**.
 
-<a href="https://www.linkedin.com/in/ahmet-yusuf-bursal-03324321b/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-<a href="https://aopcreativeagency.com/"><img src="https://img.shields.io/badge/Live_work-aopcreativeagency.com-111111?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
-<img src="https://komarev.com/ghpvc/?username=bursal0&style=for-the-badge&color=6C8CFF&label=PROFILE+VIEWS" />
+<a href="https://www.linkedin.com/in/ahmet-yusuf-bursal-03324321b/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a> <a href="https://bursal0.github.io/robot-ik-singularity-lab/"><img src="https://img.shields.io/badge/Live-Robot_IK_Lab-2A9D8F?style=for-the-badge&logo=githubpages&logoColor=white" alt="Robot IK Lab"></a> <a href="https://aopcreativeagency.com/"><img src="https://img.shields.io/badge/Live-AOP_Agency-111111?style=for-the-badge&logo=googlechrome&logoColor=white" alt="AOP Agency"></a>
 
 </div>
 
@@ -49,40 +47,81 @@ robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Ma
 
 ---
 
-## 🚀 Featured work
+## 🌟 Showcase
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/bursal0/robot-ik-singularity-lab"><img src="assets/ik-lab.webp" width="100%" alt="🦾 Robot IK Singularity Lab"></a>
+<h3><a href="https://github.com/bursal0/robot-ik-singularity-lab">🦾 Robot IK Singularity Lab</a></h3>
+<p>Numerically stable inverse kinematics near kinematic singularities — convergence proofs, adaptive SV &amp; Levenberg–Marquardt damping, paired-bootstrap statistics and an interactive rover simulator. Next stop: real rovers.</p>
+<p><code>JAX</code> <code>GPU</code> <code>NumPy</code> <code>JavaScript</code></p>
+<p>⭐ <b>320k GPU solves · 508× faster than NumPy · 1026/1026 cross-validated</b> · <a href="https://bursal0.github.io/robot-ik-singularity-lab/">live ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/bursal0/agenith-agent"><img src="assets/agenith.webp" width="100%" alt="🧠 Agenith — Modular AI Agent"></a>
+<h3><a href="https://github.com/bursal0/agenith-agent">🧠 Agenith — Modular AI Agent</a></h3>
+<p>Brain → Orchestrator → Tool Registry agent architecture with LLM-driven tool selection, retrieval-grounded PDF QA over FAISS and map-reduce whole-document reasoning.</p>
+<p><code>Python</code> <code>FastAPI</code> <code>Gemini</code> <code>FAISS</code></p>
+<p>⭐ <b>Pluggable tools · grounded answers · quota-free test suite</b></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/bursal0/aop-agency-website-case-study"><img src="assets/aop.webp" width="100%" alt="🎨 AOP Creative Agency"></a>
+<h3><a href="https://github.com/bursal0/aop-agency-website-case-study">🎨 AOP Creative Agency</a></h3>
+<p>High-fidelity, scroll-driven motion website for an Istanbul creative &amp; events agency — animated brand intro, cinematic hero film, fail-closed edge-authenticated preview pipeline.</p>
+<p><code>JavaScript</code> <code>CSS</code> <code>Netlify Edge</code> <code>Cloudflare</code></p>
+<p>⭐ <b>In production</b>  · <a href="https://aopcreativeagency.com/">aopcreativeagency.com ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/bursal0/eda-akademik-takip-case-study"><img src="assets/eda.webp" width="100%" alt="🎓 EDA Akademik Takip"></a>
+<h3><a href="https://github.com/bursal0/eda-akademik-takip-case-study">🎓 EDA Akademik Takip</a></h3>
+<p>Production education-operations platform: student files, coaching, scheduling, analytics and finance — with server-side authorisation, audit trails and verifiable backups.</p>
+<p><code>TypeScript</code> <code>React</code> <code>Workers</code> <code>D1</code> <code>R2</code></p>
+<p>⭐ <b>Running in production behind Cloudflare Access</b></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/bursal0/cifar10-resnet18-classification"><img src="assets/cifar.webp" width="100%" alt="🖼️ CIFAR-10 · ResNet18"></a>
+<h3><a href="https://github.com/bursal0/cifar10-resnet18-classification">🖼️ CIFAR-10 · ResNet18</a></h3>
+<p>ImageNet-pretrained ResNet18 fine-tuned by transfer learning, with failure-case analysis and out-of-distribution evaluation on real smartphone photos, served through Gradio.</p>
+<p><code>PyTorch</code> <code>torchvision</code> <code>Gradio</code></p>
+<p>⭐ <b>95.03 % test accuracy · macro-F1 95.02 % · ~6.8 ms / image</b></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/bursal0/SongRecommendation"><img src="assets/song.webp" width="100%" alt="🎧 MelodyMatch"></a>
+<h3><a href="https://github.com/bursal0/SongRecommendation">🎧 MelodyMatch</a></h3>
+<p>Content-based music recommender over a 9-dimensional audio-feature space — standardised cosine similarity with a genre prior and real-time autocomplete search.</p>
+<p><code>Python</code> <code>scikit-learn</code> <code>FastAPI</code></p>
+<p>⭐ <b>Deployed full-stack</b> · <a href="https://songrecommendation-production.up.railway.app/">live ↗</a></p>
+</td>
+</tr>
+</table>
+
+## 🧩 More projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🦾 Robotics Research
-- **[robot-ik-singularity-lab](https://github.com/bursal0/robot-ik-singularity-lab)** — numerically stable inverse kinematics near kinematic singularities. Convergence proofs (quadratic vs linear, closed-form contraction ρ = λ²/(σ²+λ²) matched to 6 decimals), adaptive SV & Levenberg–Marquardt damping, paired-bootstrap statistics, and **320,000-solve JAX/GPU workspace maps — 508× faster than NumPy**. Ships with an [interactive rover simulator ↗](https://bursal0.github.io/robot-ik-singularity-lab/) cross-validated **1026/1026** against the Python reference. Next stop: real rovers.
+#### 🔎 Retrieval & Machine Learning
+- **[rag-pdf-chatbot](https://github.com/bursal0/rag-pdf-chatbot)** — hybrid RAG: dense (FAISS + sentence embeddings) + sparse (BM25) retrieval, score fusion, LLM cross-reranking and source-attributed answers
+- **[house-price-api](https://github.com/bursal0/house-price-api)** — XGBoost regression with log-target transform and an end-to-end sklearn pipeline behind a REST API
+- **[mnist-mlp-handwritten-digit-recognition](https://github.com/bursal0/mnist-mlp-handwritten-digit-recognition)** — controlled ablation of MLP capacity and learning rate; domain-shift test on my own handwriting
 
-### 🧠 Agentic AI & Retrieval
-- **[agenith-agent](https://github.com/bursal0/agenith-agent)** — modular agent architecture (Brain → Orchestrator → Tool Registry) with LLM-driven tool selection, retrieval-grounded PDF QA over FAISS, map-reduce whole-document reasoning and a quota-free automated test suite
-- **[rag-pdf-chatbot](https://github.com/bursal0/rag-pdf-chatbot)** — hybrid retrieval-augmented generation: dense (FAISS + sentence embeddings) and sparse (BM25) retrieval combined by score fusion, followed by LLM cross-reranking and source-attributed, context-constrained answering
-
-### 🔬 Deep Learning & ML
-- **[cifar10-resnet18-classification](https://github.com/bursal0/cifar10-resnet18-classification)** — ImageNet-pretrained ResNet18 fine-tuned via transfer learning to **95.03 % test accuracy** (macro-F1 95.02 %), ~6.8 ms inference, failure-case analysis and out-of-distribution evaluation on real smartphone photos (6/6), served through Gradio
-- **[mnist-mlp-handwritten-digit-recognition](https://github.com/bursal0/mnist-mlp-handwritten-digit-recognition)** — controlled ablation of MLP capacity and learning rate with a strict train/val/test protocol, plus domain-shift evaluation on my own handwriting
-- **[SongRecommendation](https://github.com/bursal0/SongRecommendation)** — content-based recommender over 9-dimensional audio-feature space (standardised cosine similarity + genre prior), deployed full-stack with [live demo ↗](https://songrecommendation-production.up.railway.app/)
-- **[house-price-api](https://github.com/bursal0/house-price-api)** — gradient-boosted regression (XGBoost) with log-target transformation and an end-to-end sklearn preprocessing pipeline, served as a production REST API
+#### 🔒 Private / NDA
+- Company-specific **Agentspace agents & MCP servers** · **Vertex AI** pipelines · **Claude** integrations · **CRM** automation — *Peranet*
+- **Raspberry Pi autonomous rover** · **FPGA** designs · **drones**
 
 </td>
 <td width="50%" valign="top">
 
-### ⚙️ Systems Programming (C / POSIX)
-- **[air-gapped-agency](https://github.com/bursal0/air-gapped-agency)** — fault-tolerant multi-agent orchestration without networking: fork/exec process supervision, `FD_CLOEXEC` startup-pipe handshakes, atomic rename-based publishing, single-writer file-mailbox IPC and crash recovery via PID liveness probing
-- **[mining-robot](https://github.com/bursal0/mining-robot)** — autonomous exploration simulator with BFS shortest-path and **risk-weighted Dijkstra** planning, function-pointer policy dispatch, Minesweeper-style hazard sensing and an SDL2 renderer
-- **[mini-shell](https://github.com/bursal0/mini-shell)** — Unix job-control shell: background process management, per-task log redirection and asynchronous status tracking
-
-### 🌐 Production & Client Systems
-- **[EDA Akademik Takip](https://github.com/bursal0/eda-akademik-takip-case-study)** — production education-operations platform on **Cloudflare Workers + D1 + R2** behind Cloudflare Access: server-side authorisation, relational data model, audit trails, verifiable backups and dual deployment environments
-- **[AOP Creative Agency](https://github.com/bursal0/aop-agency-website-case-study)** — high-fidelity, scroll-driven motion website with a fail-closed edge-authenticated preview pipeline — [live ↗](https://aopcreativeagency.com/)
-
-### 🔒 Private / NDA
-- Company-specific **Agentspace agents & MCP servers** · **Vertex AI** pipelines · **Claude** integrations · **CRM** automation (Peranet)
-- **Raspberry Pi autonomous rover** · **FPGA** designs · **drones**
+#### ⚙️ Systems Programming (C / POSIX)
+- **[air-gapped-agency](https://github.com/bursal0/air-gapped-agency)** — fault-tolerant multi-agent orchestration without networking: fork/exec supervision, `FD_CLOEXEC` handshakes, atomic publishing, file-mailbox IPC, crash recovery
+- **[mining-robot](https://github.com/bursal0/mining-robot)** — autonomous exploration with BFS and **risk-weighted Dijkstra** planning, function-pointer policies, SDL2 renderer
+- **[mini-shell](https://github.com/bursal0/mini-shell)** — Unix job-control shell with background processes, per-task logs and status tracking
 
 </td>
 </tr>
@@ -94,15 +133,29 @@ robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Ma
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,c,ts,js,html,css,pytorch,sklearn,fastapi,flask,gcp,cloudflare,netlify,linux,raspberrypi,git,vscode&perline=9" />
+<img src="https://skillicons.dev/icons?i=python,c,ts,js,react,html,css,pytorch,sklearn,fastapi,flask,gcp,cloudflare,netlify,linux,raspberrypi,git,vscode&perline=9" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Agentspace-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Agentspace">
+<img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Vertex AI">
+<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
+<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
+<img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP">
+<img src="https://img.shields.io/badge/JAX-A8B9CC?style=for-the-badge&logo=google&logoColor=black" alt="JAX">
+<img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS">
+<img src="https://img.shields.io/badge/FPGA-8A2BE2?style=for-the-badge" alt="FPGA">
 
 </div>
 
-## 📈 GitHub stats
+## 🤝 Let's build something
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=bursal0&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bursal0&layout=compact&hide_border=true&theme=tokyonight" height="165" />
-</div>
 
-<div align="center"><sub>Always building something — from prompts to processors.</sub></div>
+Open to **AI engineering, agentic systems and robotics** roles, research collaborations and ambitious side projects.
+
+<a href="https://www.linkedin.com/in/ahmet-yusuf-bursal-03324321b/"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn"></a>
+
+<sub>Always building something — from prompts to processors.</sub>
+
+</div>
