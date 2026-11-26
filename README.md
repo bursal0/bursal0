@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3200&pause=900&color=6C8CFF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Ahmet+Yusuf+Bursal+%F0%9F%91%8B;AI+Engineer+%C2%B7+Agentic+Systems+%26+MCP;Agentspace+%C2%B7+Vertex+AI+%C2%B7+Claude;From+LLM+agents+to+FPGA+silicon;Rovers%2C+drones+and+autonomous+robotics" alt="Typing intro" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3200&pause=900&color=6C8CFF&center=true&vCenter=true&width=720&lines=Hi%2C+I'm+Ahmet+Yusuf+Bursal+%F0%9F%91%8B;AI+Engineer+%C2%B7+Agentic+Systems+%26+MCP;Agentspace+%C2%B7+Vertex+AI+%C2%B7+Claude;AI+phone+agents+with+GPT+%2B+ElevenLabs;From+LLM+agents+to+FPGA+silicon;Rovers%2C+drones+and+autonomous+robotics" alt="Typing intro" />
 
 **AI Engineer @ Peranet · Computer Engineering @ Istanbul Medeniyet University**
 
@@ -17,7 +17,8 @@ and I go all the way down the stack to **C, Linux kernels, FPGAs and autonomous 
 
 ```yaml
 ai_engineering:   [LLM agents, multi-agent orchestration, tool routing, MCP servers, RAG, reranking]
-enterprise_ai:    [Google Agentspace, Vertex AI, Gemini, Anthropic Claude, MCP servers, company-specific agents, CRM automation]
+enterprise_ai:    [Google Agentspace, Vertex AI, Gemini, OpenAI GPT, Anthropic Claude, MCP servers, company-specific agents, CRM automation]
+voice_ai:         [AI phone agents, conversational voice bots, ElevenLabs speech synthesis, real-time dialogue]
 machine_learning: [PyTorch, JAX (vmap/jit on GPU), transfer learning, CNNs, gradient boosting, model serving]
 full_stack:       [FastAPI, Flask, TypeScript, Cloudflare Workers/D1/R2, serverless, motion-heavy web]
 systems:          [C, POSIX processes & IPC, shells, Linux kernel modules]
@@ -28,11 +29,12 @@ robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Ma
 ## 🏢 Experience
 
 ### 💼 AI & CRM Engineer — **Peranet**
-*Enterprise AI · CRM platforms · Google Cloud · Anthropic Claude*
+*Enterprise AI · Voice AI · CRM platforms · Google Cloud · OpenAI · Anthropic Claude*
 
 - 🤖 **Enterprise agentic AI on Google Agentspace** — architected and shipped **company-specific AI agents** for client organisations, grounded in each company's internal knowledge, documents and workflows
 - 🔌 **Model Context Protocol (MCP) servers** — engineered custom MCP integrations that expose proprietary tools, data sources and business operations to agents through a standard, secure interface
 - ☁️ **Google Vertex AI** — built generative-AI pipelines: prompt engineering, embeddings, batch prediction and multimodal inference on Gemini models
+- 📞 **AI voice & phone agents** — built conversational phone bots that hold natural, real-time calls: **OpenAI GPT** models for dialogue and reasoning, **ElevenLabs** for lifelike speech synthesis
 - 🧠 **Claude-based systems** — designed and integrated LLM solutions on Anthropic's Claude for production business use cases
 - 🧩 **CRM & help-desk engineering** — developed, customised and automated CRM / service-desk platforms: workflow automation, data integration and AI-assisted customer operations
 
@@ -159,6 +161,12 @@ An enterprise data platform that turns a company's CRM and help desk into **perm
 - **Text-embedding** pipelines for semantic search and retrieval
 - Systematic **prompt engineering** and evaluation
 
+#### 📞 AI phone & voice agents · *Peranet*
+- **Conversational phone bots** that answer and run real calls end to end, with no human in the loop
+- **OpenAI GPT** for intent understanding, dialogue management and response generation
+- **ElevenLabs** voices that turn every reply into natural-sounding speech
+- Tuned for spoken conversation: short turns, quick responses and a consistent voice persona
+
 </td>
 </tr>
 <tr>
@@ -194,6 +202,8 @@ An enterprise data platform that turns a company's CRM and help desk into **perm
 <img src="https://img.shields.io/badge/Vertex_AI-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Vertex AI">
 <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini">
 <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude">
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
+<img src="https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logo=elevenlabs&logoColor=white" alt="ElevenLabs">
 <img src="https://img.shields.io/badge/MCP-111111?style=for-the-badge&logo=modelcontextprotocol&logoColor=white" alt="MCP">
 <img src="https://img.shields.io/badge/JAX-A8B9CC?style=for-the-badge&logo=google&logoColor=black" alt="JAX">
 <img src="https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white" alt="FAISS">
