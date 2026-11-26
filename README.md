@@ -38,7 +38,7 @@
 | Project | Summary |
 |---|---|
 | [**EDA Akademik Takip**](https://github.com/bursal0/eda-akademik-takip-case-study) | Student, coaching and institution tracking platform running in production on Cloudflare Workers, D1 and R2 — [case study](https://github.com/bursal0/eda-akademik-takip-case-study) |
-| **AOP — creative agency website** | Scroll-driven, motion-heavy portfolio site for an advertising & events agency (launching soon) |
+| [**AOP — creative agency website**](https://aopcreativeagency.com/) | Scroll-driven, motion-heavy portfolio site for an advertising & events agency — [live](https://aopcreativeagency.com/) · [case study](https://github.com/bursal0/aop-agency-website-case-study) |
 | **Google Agentspace for companies** | Enterprise AI agents and search over internal company data |
 | **CRM development** | CRM and help-desk customisation and integrations at my previous company |
 | **Raspberry Pi autonomous rover** | Self-driving code for a rover running on Raspberry Pi |
