@@ -117,6 +117,7 @@ robotics_math:    [inverse kinematics, SVD, damped least squares, Levenberg–Ma
 <td width="50%" valign="top">
 
 #### ⚙️ Systems Programming (C / POSIX)
+- **[drone-swarm-choreographer](https://github.com/bursal0/drone-swarm-choreographer)** — a 184-drone light show run by cooperating processes over FIFOs, **lock-free shared memory** (seqlock) and recordings: beat clock, per-beat collision and speed audits, watchdog with standby takeover, SDL2 viewer
 - **[air-gapped-agency](https://github.com/bursal0/air-gapped-agency)** — fault-tolerant multi-agent orchestration without networking: fork/exec supervision, `FD_CLOEXEC` handshakes, atomic publishing, file-mailbox IPC, crash recovery
 - **[mining-robot](https://github.com/bursal0/mining-robot)** — autonomous exploration with BFS and **risk-weighted Dijkstra** planning, function-pointer policies, SDL2 renderer
 - **[mini-shell](https://github.com/bursal0/mini-shell)** — Unix job-control shell with background processes, per-task logs and status tracking
@@ -181,7 +182,7 @@ An enterprise data platform that turns a company's CRM and help desk into **perm
 <td width="50%" valign="top">
 
 #### 🐧 Low-level systems *(in progress / coursework)*
-- **Autonomous drone-swarm choreography:** independent processes that coordinate a show over a common channel API across **FIFOs, shared memory and files**, later **TCP/UDP across machines**, with per-beat collision and speed safety audits and a live SDL2 viewer
+- **[Autonomous drone-swarm choreography](https://github.com/bursal0/drone-swarm-choreographer):** independent processes that coordinate a show over a common channel API across **FIFOs, shared memory and files**, later **TCP/UDP across machines**, with per-beat collision and speed safety audits and a live SDL2 viewer
 - **Linux kernel modules:** a thread monitor exposed through `/proc` and a kernel-space drone simulation
 
 </td>
